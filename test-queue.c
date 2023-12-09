@@ -5,7 +5,7 @@
 int main() {
 
 
-    QueueElement *queue;
+    QueueElement *queue = 0;
 
     printf("%d %d\n", QueueGetIsLast(&queue), QueuePop(&queue));
 
